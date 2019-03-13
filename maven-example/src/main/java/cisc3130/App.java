@@ -30,8 +30,8 @@ public class App {
         final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
         wordCloud.setPadding(2);
         wordCloud.setBackground(new PixelBoundryBackground("queen.png"));
-        wordCloud.setBackgroundColor(new Color(0x0000F0FF, true));
         wordCloud.setFontScalar(new LinearFontScalar(4, 10));
+        wordCloud.setBackgroundColor(new Color(0xFFFFFF));
         wordCloud.setColorPalette(new ColorPalette(new Color(0xAA0000), new Color(0xFFFFFF)));
 
 
