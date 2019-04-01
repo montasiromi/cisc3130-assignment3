@@ -14,6 +14,8 @@
   </properties>
 
   <dependencies>
+
+    <!-- Dependencies for kumo -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -30,15 +32,17 @@
       <artifactId>commons-io</artifactId>
       <version>2.6</version>
     </dependency>
+
+    <!-- Dependencies for tablesaw -->
     <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.5</version>
+      <groupId>tech.tablesaw</groupId>
+      <artifactId>tablesaw-core</artifactId>
+      <version>0.32.6</version>
     </dependency>
     <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-simple</artifactId>
-        <version>1.6.4</version>
+      <groupId>tech.tablesaw</groupId>
+      <artifactId>tablesaw-jsplot</artifactId>
+      <version>0.32.6</version>
     </dependency>
   </dependencies>
 
